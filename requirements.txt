@@ -1,0 +1,7 @@
+omnivoice
+gradio
+soundfile
+torchaudio
+transformers
+scipy
+numba

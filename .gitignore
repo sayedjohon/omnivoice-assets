@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+data/cache/
+data/history/
+.DS_Store
+*.safetensors
+venv/
