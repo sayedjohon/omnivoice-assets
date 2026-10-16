@@ -268,6 +268,7 @@ def generate_tts(
 
     kwargs = {"text": cleaned_text, "speed": speed, "num_step": num_step}
     if ref_audio:
+        ref_audio = convert_to_wav(ref_audio)
         kwargs["ref_audio"] = ref_audio
         if cleaned_ref_text:
             kwargs["ref_text"] = cleaned_ref_text

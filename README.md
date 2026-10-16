@@ -30,6 +30,8 @@ Click the generated `https://xxxx.gradio.live` public link to open the custom We
 
 | Voice Name | Description | Reference Sample | Reference Transcript |
 | :--- | :--- | :--- | :--- |
+| **`West Bengal Female Reporter -1`** | Indian Bengali Female News Anchor | `West Bengal Female Reporter -1.wav` | `West Bengal Female Reporter -1.txt` |
+| **`West Bengal Reporter 14 Sec`** | Indian Bengali News Anchor (14s sample) | `West Bengal Reporter 14 Sec.wav` | `West Bengal Reporter 14 Sec.txt` |
 | **`Mujib`** | Historic 1952/1954/1958 speech | `Mujib.wav` | `Mujib.txt` |
 | **`Bichar-Dilam-Final`** | Dramatic speech ("আল্লাহ তোমার কাছে বিচার দিলাম") | `Bichar-Dilam-Final.wav` | `Bichar-Dilam-Final.txt` |
 | **`Bichar5`** | Dramatic quote sample | `Bichar5.wav` | `Bichar5.txt` |
