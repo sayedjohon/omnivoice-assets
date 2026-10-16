@@ -2,22 +2,38 @@
 """
 OmniVoice Community Colab Launcher
 One-click runner for Google Colab GPU environment.
+Engine by Sayed Johon
 """
 
 import os
 import sys
-import subprocess
+
+def print_banner():
+    banner = """
+======================================================================
+🎙️  JunoVoice & OmniVoice Neural Voice Studio
+    Multilingual & Bengali Voice Cloning Engine
+    Creator: Sayed Johon
+======================================================================
+📺 YouTube:         https://youtube.com/@junoverseai
+🎓 AI Mastercourse: https://peeai.com
+🎙️ Voice Assistant: https://mictab.com
+🎁 Free AI Tools:   https://junoverseai.com
+💬 Telegram:        https://t.me/junoverseai
+======================================================================
+"""
+    print(banner)
 
 def main():
-    print("=" * 60)
-    print("🎙️ OmniVoice Neural Voice Studio — Colab Runner")
-    print("=" * 60)
+    print_banner()
     
     # Check PyTorch & GPU
     try:
         import torch
         if torch.cuda.is_available():
-            print(f"✅ GPU Detected: {torch.cuda.get_device_name(0)} (VRAM: {round(torch.cuda.get_device_properties(0).total_memory / (1024**3), 1)} GB)")
+            gpu_name = torch.cuda.get_device_name(0)
+            vram = round(torch.cuda.get_device_properties(0).total_memory / (1024**3), 1)
+            print(f"✅ GPU Active: {gpu_name} ({vram} GB VRAM)")
         else:
             print("⚠️ Warning: No CUDA GPU detected. Running on CPU may be slow.")
     except ImportError:

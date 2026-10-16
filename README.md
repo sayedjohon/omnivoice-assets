@@ -1,6 +1,7 @@
 # 🎙️ OmniVoice Assets & Neural Studio
 
 High-fidelity Multilingual & Bengali Zero-Shot Voice Cloning Studio powered by `k2-fsa/OmniVoice`.
+**Engine & Studio by [Sayed Johon](https://github.com/sayedjohon)**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sayedjohon/omnivoice-assets/blob/main/OmniVoice_Community_Studio.ipynb)
 
@@ -15,8 +16,9 @@ Open any Google Colab notebook, set hardware accelerator to **T4 GPU**, and run:
 !git clone https://github.com/sayedjohon/omnivoice-assets.git
 %cd omnivoice-assets
 
-# 2. Install requirements
+# 2. Install requirements & Pre-cache AI Model Weights
 !pip install -q -r requirements.txt
+!python download_model.py
 
 # 3. Launch Web Studio with public link
 !python run_colab.py
@@ -38,7 +40,7 @@ Click the generated `https://xxxx.gradio.live` public link to open the custom We
 | **`Sayed Johon short`** | Authentic clean YouTube host voice | `Sayed Johon short.wav` | `Sayed Johon short.txt` |
 | **`Sayed_Johon_trimmed_7s`**| Ultra-fast 7s reference | `Sayed_Johon_trimmed_7s.wav` | `Sayed_Johon_trimmed_7s.txt` |
 | **`Hasinacall`** | Cloned telephone reference | `Hasinacall.wav` | `Hasinacall.txt` |
-| **`Sayed Johon A`** | Long narrative style | `Sayed Johon A.wav` | `Sayed Johon A.txt` |
+| **`Sayed Johon A`** | Studio narrative style | `Sayed Johon A.wav` | `Sayed Johon A.txt` |
 
 ---
 
@@ -49,6 +51,16 @@ Click the generated `https://xxxx.gradio.live` public link to open the custom We
 - **🎲 Auto Voice**: Generate unique random human vocal profiles.
 - **📚 Voice Library Manager**: Upload new voices, edit reference transcripts, and persist them.
 - **📜 History & Downloads**: Review, play back, and download all generated audio.
+
+---
+
+## 🌟 Connect with Sayed Johon & JunoverseAI
+
+- 🎓 **AI Mastercourse**: [Peeai.com](https://peeai.com) — Master modern AI agents, workflows, and tools.
+- 📺 **YouTube Channel**: [@junoverseai](https://youtube.com/@junoverseai) — Tutorials, breakdowns, and live experiments.
+- 🎙️ **MicTab Assistant**: [Mictab.com](https://mictab.com) — Fast voice assistant and dictation.
+- 🎁 **Free Tools & AI Resources**: [Junoverseai.com](https://junoverseai.com) — Exclusive free tools, templates, and downloads.
+- 💬 **Telegram Community**: [t.me/junoverseai](https://t.me/junoverseai) — Join our creator discussion.
 
 ---
 
